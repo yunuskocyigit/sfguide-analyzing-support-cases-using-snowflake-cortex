@@ -1,0 +1,13 @@
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - langchain=*
+  - langchain-community=*
+  - langchain-text-splitters=*
+  - nltk=*
+  - snowflake=0.8.0
+  - snowflake-ml-python=*
+  - snowflake-snowpark-python=*
+  - tiktoken=*
+  - transformers=*
