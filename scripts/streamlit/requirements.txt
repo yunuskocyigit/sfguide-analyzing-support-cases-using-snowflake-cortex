@@ -1,0 +1,9 @@
+snowflake-snowpark-python[modin]
+snowflake-ml-python
+langchain
+langchain-text-splitters
+langchain-community
+tiktoken
+transformers
+streamlit
+snowflake

@@ -1,0 +1,14 @@
+name: sf_env
+channels:
+- snowflake
+dependencies:
+- python=3.9.*
+- snowflake=0.10.0
+- streamlit=1.26.0
+- langchain
+- langchain-community
+- langchain-text-splitters
+- transformers
+- snowflake-ml-python
+- nltk
+- tiktoken
