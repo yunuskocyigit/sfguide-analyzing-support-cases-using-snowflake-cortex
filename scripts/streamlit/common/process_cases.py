@@ -89,7 +89,7 @@ def process_cases(
 
     map_template = PromptTemplate.from_template(
         """
-                                                Given the following support cases for an ecommerce site, return a summary of each case.
+                                                Given the following support cases for an order, return a summary of each case.
                                                 Include details on the category of the issue, the errors or symptoms the customer noticed,
                                                 and any basic details about what the customer was looking to accomplish.
                                                 If multiple cases exist in the same category, you can group them together.
@@ -104,7 +104,7 @@ def process_cases(
 
     reduce_template = PromptTemplate.from_template(
         """
-                                                    Given the following set of summaries for support case reports opened for an ecommerce site, 
+                                                    Given the following set of summaries for support case reports opened for an order , 
                                                     distill it into a final, consolidated and detailed summary of trends and top pain points or blockers customers have been hitting.
                                                     Prioritize issue categories that show up in multiple summaries as they are likely to be the most impactful.
                                                     Include a description of the issue, the symptoms the customer noticed, what they were trying to do, and what led them to open the case.
