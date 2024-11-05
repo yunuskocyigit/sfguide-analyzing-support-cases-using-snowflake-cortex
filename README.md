@@ -10,4 +10,4 @@ Support case analysis is a critical task for any product-driven company. Underst
 
 ## Step-By-Step Guide
 
-For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide]().
+For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/streamlining-support-case-analysis-with-snowflake-cortex/index.html?index=..%2F..index#0).
