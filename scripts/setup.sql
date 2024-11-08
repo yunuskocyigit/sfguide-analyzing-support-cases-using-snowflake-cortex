@@ -36,7 +36,7 @@ CREATE OR REPLACE EXTERNAL ACCESS INTEGRATION allow_all_integration
 ALLOWED_NETWORK_RULES = (allow_all_rule)
 ENABLED = true;
 
-CREATE OR REPLACE NETWORK RULE pypi_networkrule
+CREATE OR REPLACE NETWORK RULE pypi_network_rule
 MODE = EGRESS
 TYPE = HOST_PORT
 VALUE_LIST = ('pypi.org', 'pypi.python.org', 'pythonhosted.org',  'files.pythonhosted.org');
